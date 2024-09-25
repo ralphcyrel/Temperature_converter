@@ -6,4 +6,8 @@ while True:
         celsius = float(input("Enter the Temperature in Celsius: "))
         fahrenheit = celsius * 9 / 5 + 32
         print("The Temperature in Fahrenheit is:", fahrenheit)
+    elif temp_choice == 'F':
+        fahrenheit = float(input("Enter the Temperature in Fahrenheit: "))
+        celsius = (fahrenheit - 32) * 5/9
+        print("The Temperature in Celsius is: ", celsius)
 #will ask the user to try again
