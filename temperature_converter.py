@@ -13,4 +13,8 @@ while True:
     else:
         print("Invalid Input")
         continue
+    try_again = input("Do you want to continue (yes/no): ")
+    if try_again == 'no':
+        print("Goodbye! Thank you for using this!")
+        break
 #will ask the user to try again
